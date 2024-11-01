@@ -18,18 +18,16 @@ Print both the values it would be interchanged
 ### Step 6: 
 End the program
 ## PROGRAM:
-    a=str(input())
-    b=str(input())
-    temp=a
-    a=b
-    b=temp
-    print(f"Swapped values are: {a} {b}")
+    #Developed by:Harish Kumar S 
+    #RegisterNumber:24010415
+    import numpy as np
+    a=np.array([[5,-3,-10],[2,2,-3],[-3,-1,5]])
+    rank=np.linalg.matrix_rank(a)
+    print(rank)
 
 ## OUTPUT :
-![image](<Screenshot 2024-10-26 141544.png>)
-![image 2](<Screenshot 2024-10-26 141533.png>)
-![image](<Screenshot 2024-10-26 141516.png>)
-
+![alt text](<Screenshot 2024-11-01 133216.png>)
+![alt text](<Screenshot 2024-11-01 133236.png>)
 
 ## RESULT:
 Thus the swapping of two values are successfully executed...
